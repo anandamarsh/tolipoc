@@ -1,0 +1,68 @@
+[0/3] Creating React app in 'spa' directory
+
+Creating a new React app in /Users/amarshanand/tolipoc/spa.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1480 packages in 21s
+
+261 packages are looking for funding
+  run `npm fund` for details
+
+Installing template dependencies using npm...
+
+added 64 packages, and changed 1 package in 4s
+
+261 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1544 packages in 3s
+
+261 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created spa at /Users/amarshanand/tolipoc/spa
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd spa
+  npm start
+
+Happy hacking!
+
+added 35 packages, and audited 1579 packages in 10s
+
+269 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.

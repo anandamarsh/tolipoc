@@ -1,13 +1,10 @@
 #!/bin/bash
-set -e  # Exit immediately if a command exits with a non-zero status
-
 clear
 # Create log directory if it doesn't exist
 LOG_DIR="logs"
 if [ ! -d "$LOG_DIR" ]; then
     mkdir -p "$LOG_DIR"
 fi
-
 # Kill everything running on ports 1978, 1979, 1980
 for port in 1978 1979 1980; do
     pids=$(lsof -t -i:$port) || true
